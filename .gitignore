@@ -1,0 +1,19 @@
+# --- R / RStudio ---
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+
+# --- GENERATED DATA AND OUTPUTS ---
+# The synthetic population is rebuilt identically from a fixed seed by
+# setup_data/00_generate_population.R. Real survey microdata must never be
+# committed here under any circumstances.
+data/
+output/
+
+# --- OS noise ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+~$*
